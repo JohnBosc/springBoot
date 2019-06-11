@@ -13,7 +13,7 @@ public class ViewController {
     public String index(Model model){
         model.addAttribute("datetime", new Date());
         model.addAttribute("username", "Jean Bosco");
-        model.addAttribute("mode", "production");
+        model.addAttribute("mode", "development");
 
         return "index";
     }
